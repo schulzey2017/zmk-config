@@ -84,7 +84,7 @@
 		right_layer {
 		bindings = <
 		&none     &none     &none     &none     &none    			    &none  &kp PG_UP  &kp UP    &kp PG_DN  &none  
-		&kp TAB   &none     & LALT     &kp LGUI  &kp RET 			    &none  &kp LEFT   &kp DOWN  &kp RIGHT  &kp DEL
+		&kp TAB   &none     &none     &kp LGUI  &kp RET 			    &none  &kp LEFT   &kp DOWN  &kp RIGHT  &kp DEL
 		&kp LSFT  &none     &none     &none     &none    			    &none  &kp HOME   &none     &kp END    &kp BKSP
 					                  &mo 4     &kp LCTL  				&none  &none 					
 		>;
@@ -102,7 +102,7 @@
         quad_layer {
 		bindings = <
 		&kp F1      &kp F2       &kp F3       &kp F4    &kp F5 			   &kp F6  &kp F7        &kp F8        &kp F9      &kp F10
-		&kp F11     &kp F12      &none        &none     &none 			   &none   &kp C_VOL_DN  &kp C_VOL_UP  &kp F11     &kp F12 
+		&kp F11     &kp F12      &none        &none     &none 			   &none   &kp C_VOL_UP  &kp C_VOL_DN  &kp F11     &kp F12 
 		&mo 5       &none        &none        &none     &none              &none   &none         &none         &none       &none
 					                          &none     &kp LCTL   		   &none   &none
 		>;
@@ -119,11 +119,12 @@
 
 		hex_layer {
 		bindings = <
-		&none    &none    &bt BT_PRV  &bt BT_NXT  &none 		&none	  &none     &none     &none     &none
-		&reset  &none         &none         &bt BT_CLR   &none  		&none	  &none     &none     &none     &none
-		&none   &none         &none         &none        &none    		 &none	  &none     &none     &none     &none   
-					             &none       &none   		 &none      &none
+		&none  &none       &none       &none       &none 			   &none	  &none     &none     &none     &none
+		&none  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &none  		       &none	  &none     &none     &none     &none
+		&none  &none       &none        &none       &none    		   &none	  &none     &none     &none     &none   
+					                   &none       &none   		       &none      &none
 		>;
 		};	
 	};
 };
+Footer
